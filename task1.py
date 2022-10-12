@@ -44,9 +44,11 @@ if option == 1 or option == 2:
         result = rle_encode(infile)
         with open('task1result.txt', 'w') as out:
             out.write(result)
+            print(result)
     elif option == 2:
         resdecode = rle_decode(decodFile)
         with open('task1result.txt', 'a') as decod:
             decod.write('\n' + resdecode)
-elif option != 1 or option != 2:
+            print(resdecode)
+else: #option != 1 or option != 2:
     print('Введен не правильный вариант')
