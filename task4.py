@@ -1,29 +1,5 @@
 # 3. Создайте программу для игры в 'Крестики-нолики'.
 
-# import tkinter as tk
-#
-# win = tk.Tk()
-# win.geometry(f'400x400+100+100')
-# win.title('Крестики нолики')
-# ROW = 3
-# COL = 3
-# buttons = []
-# for i in range(ROW):
-#     temp = []
-#     for j in range(COL):
-#         btn = tk.Button(win, width=5, font='Calibri 15 bold')
-#         temp.append(btn)
-#     buttons.append(temp)
-# print(buttons)
-#
-# for i in range(ROW):
-#     for j in range(COL):
-#         btn = buttons[i][j]
-#         btn.grid(row=i,column=j, stick='NWES')
-#
-# win.mainloop()
-
-
 maps = [1, 2, 3,
         4, 5, 6,
         7, 8, 9]
