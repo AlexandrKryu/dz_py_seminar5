@@ -23,8 +23,7 @@ def player_vs_bot():
 
     lucky = random.randint(-1, 0)
 
-    if [lucky + 1]:
-        print(f'{players[lucky + 1]} ты ходишь первым !')
+    print(f'{players[lucky + 1]} ты ходишь первым !')
 
     while candies_total > 0:
         lucky += 1
